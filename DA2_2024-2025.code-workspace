@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Encoder_motor",
+			"path": "code/sim/Encoder_motor"
+		}
+	],
+	"settings": {}
+}
