@@ -1,18 +1,47 @@
-#include <Arduino.h>
-
-// put function declarations here:
-int myFunction(int, int);
+#include "header.h"
 
 void setup() {
   // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  // Serial_data.Bdata = 0;
+  Serial.begin(9600);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
+  Serial.println("Hello Computer");
+  delay(1000);
+  // Serial_data = Serial.readBytesUntil() ;
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  // Serial_data.Bdata = 0xA86AF0E9;
+ 
+  // if (Serial.available() > 0){
+  //   Serial_data.Bdata = Serial.read();
+  //   Serial.print("Serial data string: 0x"); Serial.println(Serial_data.Bdata , HEX);
+  // }
+   
+  
+  // if (Serial_data.Bdata != 0) {
+  //   Serial.print("Serial data string: 0x"); Serial.println(Serial_data.Bdata , HEX);
+
+  //   Serial.print("Serial data of Motor 1: 0x"); Serial.println(Serial_data.Mdata.Moto1.byte , HEX);
+  //   if (Serial_data.Mdata.Moto1.Mbyte.Poler) Serial.print("Motor 1 rotation counterclockwise, Speed: ");
+  //     else Serial.printf("Motor 1 rotation clockwise, Speed: ");
+  //   Serial.println(Serial_data.Mdata.Moto1.Mbyte.Speed<<1, HEX);
+
+  //   Serial.print("Serial data of Motor 2: 0x"); Serial.println(Serial_data.Mdata.Moto2.byte , HEX);
+  //   if (Serial_data.Mdata.Moto2.Mbyte.Poler) Serial.print("Motor 2 rotation counterclockwise, Speed: ");
+  //     else Serial.printf("Motor 2 rotation clockwise, Speed: ");
+  //   Serial.println(Serial_data.Mdata.Moto2.Mbyte.Speed<<1, HEX);
+
+  //   Serial.print("Serial data of Motor 3: 0x"); Serial.println(Serial_data.Mdata.Moto3.byte , HEX);
+  //   if (Serial_data.Mdata.Moto3.Mbyte.Poler) Serial.print("Motor 3 rotation counterclockwise, Speed: ");
+  //     else Serial.printf("Motor 3 rotation clockwise, Speed: ");
+  //   Serial.println(Serial_data.Mdata.Moto3.Mbyte.Speed<<1, HEX);
+
+  //   Serial.print("Serial data of Motor 4: 0x"); Serial.println(Serial_data.Mdata.Moto4.byte , HEX);
+  //   if (Serial_data.Mdata.Moto4.Mbyte.Poler) Serial.print("Motor 4 rotation counterclockwise, Speed: ");
+  //     else Serial.printf("Motor 4 rotation clockwise, Speed: ");
+  //   Serial.println(Serial_data.Mdata.Moto4.Mbyte.Speed<<1, HEX);
+
+  // 
+
 }
