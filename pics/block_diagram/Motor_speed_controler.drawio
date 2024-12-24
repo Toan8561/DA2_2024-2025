@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Page-1" id="AILq600tJaNr618w4JPE">
+    <mxGraphModel dx="1035" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WLVtMLqKoF-Fk5FdKqYE-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;DATA PROCESSING&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;( JETSON NANO )&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WLVtMLqKoF-Fk5FdKqYE-3" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;MICRO-CONTROLLER&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;(ATMEGA328P)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="840" y="280" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WLVtMLqKoF-Fk5FdKqYE-4" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;width=34;endSize=12;" edge="1" parent="1" source="WLVtMLqKoF-Fk5FdKqYE-2" target="WLVtMLqKoF-Fk5FdKqYE-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="660" y="420" as="sourcePoint" />
+            <mxPoint x="760" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLVtMLqKoF-Fk5FdKqYE-5" value="USB SERIAL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WLVtMLqKoF-Fk5FdKqYE-7" value="DATA ABOUT MOTOR SPEED, SENSOR" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
