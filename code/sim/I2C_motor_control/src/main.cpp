@@ -3,12 +3,18 @@
 void setup() {
   // put your setup code here, to run once:
   // Serial_data.Bdata = 0;
-  Serial.begin(9600);
+  // Serial.begin(9600);
+  Wire.begin();
+  Wire.setClock(400000);
+  Wire.beginTransmission(PCF8575_add);
+  Wire.write(PCF8575_data1);
+  Wire.write(PCF8575_data2);
+  Wire.endTransmission();
 }
 
 void loop() {
-  Serial.println("Hello Computer");
-  delay(1000);
+  // Serial.println("Hello Computer");
+  // delay(1000);
   // Serial_data = Serial.readBytesUntil() ;
 
   // Serial_data.Bdata = 0xA86AF0E9;

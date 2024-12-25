@@ -4,6 +4,13 @@
 #endif
 
 #include <Arduino.h>
+#include <Wire.h>
+#include <SPI.h>
+
+#define PCF8575_add 0x27
+#define PCF8575_data1 0x0F /*Turn EN1_EN4 on*/
+#define PCF8575_data2 0x96
+
 // #include <ros.h>
 // #include <ros2arduino.h>
 
