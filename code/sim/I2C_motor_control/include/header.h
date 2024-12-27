@@ -6,10 +6,13 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <SPI.h>
+#include "PCF8575.h"
 
-#define PCF8575_add 0x27
-#define PCF8575_data1 0x0F /*Turn EN1_EN4 on*/
-#define PCF8575_data2 0x96
+#define PCF8575_0 0x27
+#define PCF8575_1 0x26
+// #define PCF8575_data1 0x0F /*Turn EN1_EN4 on*/
+// #define PCF8575_data2 0x96 /* set up turn on and of motor 1001 0110*/
+bool keyChange = false;
 
 // #include <ros.h>
 // #include <ros2arduino.h>
@@ -37,6 +40,6 @@ union MData {
     uint32_t Bdata;
 } Serial_data; 
 
+void keyChanged(){  keyChange = true;   }
 
-
-uint8_t buffer[4];
+uint16_t buffer[2] = {0};
