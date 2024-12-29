@@ -1,0 +1,4 @@
+https://coderdojo-robots.readthedocs.io/en/latest/motor-direction-testing/
+https://www.instructables.com/How-to-use-the-L293D-Motor-Driver-Arduino-Tutorial/
+https://www.instructables.com/Tutorial-for-Dual-Channel-DC-Motor-Driver-Board-PW/
+https://www.youtube.com/watch?v=wQtd0Ju_0UA
