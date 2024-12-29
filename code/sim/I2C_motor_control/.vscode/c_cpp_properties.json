@@ -1,0 +1,73 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/include",
+                "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/src",
+                "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/PCF8575",
+                "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/PCF8574",
+                "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/PCF8574 library",
+                "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/Adafruit PWM Servo Driver Library",
+                "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/Adafruit BusIO",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/Optiboot_flasher/src",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/include",
+                    "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/src",
+                    "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/PCF8575",
+                    "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/PCF8574",
+                    "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/PCF8574 library",
+                    "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/Adafruit PWM Servo Driver Library",
+                    "c:/Users/PC/Documents/DA2_2024-2025/code/sim/I2C_motor_control/.pio/libdeps/ATmega328P/Adafruit BusIO",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/Optiboot_flasher/src",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
+                    "C:/Users/PC/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60116",
+                "ARDUINO_AVR_ATmega328P",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__PLATFORMIO_BUILD_DEBUG__",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++17",
+            "compilerPath": "C:/Users/PC/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
